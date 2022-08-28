@@ -74,4 +74,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
  1. react-router-dom@6
  2. tailwindcss
  3. daisyui(card, modal,hero)
- 4.react-day-picker date-fns
+ 4. react-day-picker date-fns
+ 5. firebase
+ 6. react-firebase-hooks
+ 7. react-hook-form
+ 8. regular expression pattern
