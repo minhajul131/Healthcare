@@ -79,3 +79,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
  6. react-firebase-hooks
  7. react-hook-form
  8. regular expression pattern
+ 9. react-toastify
+ 10. react-query
