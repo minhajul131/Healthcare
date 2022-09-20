@@ -10,15 +10,15 @@ const AvailableAppointments = ({date}) => {
     const [treatment,setTreatment] = useState(null);
 
     const formattedDate = format(date,'PP');
-    const {data: services, isLoading, refetch} = useQuery(['available',formattedDate], ()=> fetch(`http://localhost:5000/available?date=${formattedDate}`)
+    const {data: services, isLoading, refetch} = useQuery(['available',formattedDate], ()=> fetch(`https://sleepy-chamber-06452.herokuapp.com/available?date=${formattedDate}`)
     .then(res => res.json())
     )
     if(isLoading) {
         return <Loading></Loading>
     }
     // useEffect(() => {
-    //     fetch(`http://localhost:5000/available?date=${formattedDate}`)
-    //     // fetch(`http://localhost:5000/service`)
+    //     fetch(`https://sleepy-chamber-06452.herokuapp.com/available?date=${formattedDate}`)
+    //     // fetch(`https://sleepy-chamber-06452.herokuapp.com/service`)
     //     .then(res => res.json())
     //     .then(data => setServices(data));
     // },[formattedDate])
