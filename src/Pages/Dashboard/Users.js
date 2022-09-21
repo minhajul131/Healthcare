@@ -22,9 +22,9 @@ const Users = () => {
                     <thead>
                         <tr>
                             <th></th>
-                            <th>Name</th>
-                            <th>Job</th>
-                            <th>Favorite Color</th>
+                            <th>Email</th>
+                            <th>Make Admin</th>
+                            <th>Remove</th>
                         </tr>
                     </thead>
                     <tbody>

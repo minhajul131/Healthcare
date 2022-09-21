@@ -2,6 +2,7 @@ import React from "react";
 import doctorimg from '../../assets/images/doctor.png'
 import appointment from '../../assets/images/appointment.png'
 import PrimaryButton from "../Shared/PrimaryButton";
+import { Link } from "react-router-dom";
 
 const MakeAppointment = () => {
   return (
@@ -13,7 +14,7 @@ const MakeAppointment = () => {
         <h3 className='text-xl text-primary font-bold'>Appointment</h3>
         <h2 className='text-3xl text-white mt-4 mb-4'>Make an Appointment</h2>
         <p className="text-white mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sequi voluptas numquam, ex suscipit alias dicta soluta rerum vel nemo exercitationem facilis vero odio eos labore est? Quibusdam, laborum minima!</p>
-        <PrimaryButton>Get Started</PrimaryButton>
+        <Link to="/appointment"><PrimaryButton>Get Started</PrimaryButton></Link>
       </div>
     </section>
   );
